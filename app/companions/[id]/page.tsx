@@ -2,7 +2,9 @@
 
 const CompanionsSession = () => {
     return (
-        <div>CompanionsSession</div>
+        <div>
+            <h1>CompanionsSession</h1>
+        </div>
     )
 }
 
