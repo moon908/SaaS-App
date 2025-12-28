@@ -14,6 +14,7 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import Image from "next/image";
 import { getSubjectColor } from "@/lib/utils";
+import { Companion } from "@/types/index";
 
 interface CompanionsListProps {
     title: string;
