@@ -5,17 +5,16 @@
 //   accountId: string;
 // };
 
-export enum Subject {
-  maths = "maths",
-  language = "language",
-  science = "science",
-  history = "history",
-  coding = "coding",
-  geography = "geography",
-  economics = "economics",
-  finance = "finance",
-  business = "business",
-}
+export type Subject =
+  | "maths"
+  | "language"
+  | "science"
+  | "history"
+  | "coding"
+  | "geography"
+  | "economics"
+  | "finance"
+  | "business";
 
 export type Companion = {
   id: string;
